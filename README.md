@@ -10,6 +10,7 @@ Implemented the frontend and backend.
 - View a list of books
 - Click on book name to get details on book and author
 - Add new book
+
 [Live Site](https://merng-demo.herokuapp.com/)
 
 ## How to Run

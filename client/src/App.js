@@ -1,7 +1,7 @@
-import "./App.css";
-
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { ApolloProvider } from "@apollo/client/react";
+import AddBook from "./components/AddBook";
+import BookList from "./components/BookList";
 
 const client = new ApolloClient({
   uri: "/graphql",
@@ -11,9 +11,11 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <div>
+      <main>
         <h1>Book List</h1>
-      </div>
+        <BookList />
+        <AddBook />
+      </main>
     </ApolloProvider>
   );
 }

@@ -23,6 +23,9 @@ $ git clone https://github.com/srikant-n/merng-graphql-demo.git
 # Install dependencies
 $ npm install
 
+# Define db path in a .env file
+DB_PATH
+
 # Run the app
 $ npm start
 
